@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import DataTable from "../common/dataTable/DataTable";
 import axios from "axios";
 import flat from "flat";
-import { height } from "@mui/system";
-import { TablePagination } from "@mui/material";
+
 const rows = [
   { id: 1, col1: "Hello", col2: "World" },
   { id: 2, col1: "DataGridPro", col2: "is Awesome" },

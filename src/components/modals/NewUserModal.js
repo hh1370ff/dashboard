@@ -1,6 +1,6 @@
 import { TextField } from "@mui/material";
 import { Box } from "@mui/system";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import BasicModal from "../common/basicModal/BasicModal";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";

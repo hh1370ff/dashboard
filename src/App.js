@@ -6,7 +6,6 @@ import Functions from "./pages/functions/Functions";
 import Hosting from "./pages/hosting/Hosting";
 import MachineLearning from "./pages/machineLearning/MachineLearning";
 import Storage from "./pages/storage/Storage";
-import Temp from "./Temp";
 function App() {
   return (
     <Routes>
@@ -18,7 +17,6 @@ function App() {
         <Route path="/hosting" element={<Hosting />} />
         <Route path="/machineLearning" element={<MachineLearning />} />
       </Route>
-      <Route path="/Temp" element={<Temp />} />
     </Routes>
   );
 }

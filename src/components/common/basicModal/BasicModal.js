@@ -1,11 +1,8 @@
 import React from "react";
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
-import { Input, TextField } from "@mui/material";
 import CommonButton from "../commonButton/CommonButton";
-import { margin } from "@mui/system";
 
 const style = {
   position: "absolute",

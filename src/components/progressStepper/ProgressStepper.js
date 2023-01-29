@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
 import StepLabel from "@mui/material/StepLabel";
-import { LinearProgress, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import CommonButton from "../common/commonButton/CommonButton";
 import { Box } from "@mui/system";
 
